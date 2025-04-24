@@ -2,6 +2,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
+  foo
   name: pac-demo
   annotations:
     # The event we are targeting as seen from the webhook payload
